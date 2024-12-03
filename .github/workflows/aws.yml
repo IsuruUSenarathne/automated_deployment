@@ -45,7 +45,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       name: setup Terraform
-      user: hashicorp/setuo-terraform@v1
+      uses: hashicorp/setuo-terraform@v1
       with:
         terraform_wrapper: false
 
