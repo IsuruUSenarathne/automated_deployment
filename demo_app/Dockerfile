@@ -34,4 +34,3 @@ WORKDIR /usr/share/nginx/html
  
 # Start nginx server
 CMD ["/bin/bash", "-c", "nginx -g \"daemon off;\""]
-has context menu
